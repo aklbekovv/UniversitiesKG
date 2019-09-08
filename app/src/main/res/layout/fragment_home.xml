@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarAlwaysDrawVerticalTrack="true">
+
+        <!--Ala-Too-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5dp">
+
+            <ImageView
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:src="@drawable/alatoo"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp"
+                    android:textSize="20sp"
+                    android:text="Ala-Too International University"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#a9a9a9"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp"
+                    android:textSize="15sp"
+                    android:text="Bishkek, Ankara 1/8"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <!--KRSU-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5dp">
+
+            <ImageView
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:src="@drawable/ksma"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp"
+                    android:textSize="20sp"
+                    android:text="Ala-Too International University"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#a9a9a9"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp"
+                    android:textSize="15sp"
+                    android:text="Bishkek, Ankara 1/8"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <!--KGMA-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5dp">
+
+            <ImageView
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:src="@drawable/alatoo"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp"
+                    android:textSize="20sp"
+                    android:text="Ala-Too International University"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#a9a9a9"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp"
+                    android:textSize="15sp"
+                    android:text="Bishkek, Ankara 1/8"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <!--AUCA-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5dp">
+
+            <ImageView
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:src="@drawable/alatoo"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp"
+                    android:textSize="20sp"
+                    android:text="Ala-Too International University"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#a9a9a9"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp"
+                    android:textSize="15sp"
+                    android:text="Bishkek, Ankara 1/8"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <!--KTUM-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5dp">
+
+            <ImageView
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:src="@drawable/alatoo"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp"
+                    android:textSize="20sp"
+                    android:text="Ala-Too International University"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#a9a9a9"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp"
+                    android:textSize="15sp"
+                    android:text="Bishkek, Ankara 1/8"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <!--KNU-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5dp">
+
+            <ImageView
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:src="@drawable/alatoo"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp"
+                    android:textSize="20sp"
+                    android:text="Ala-Too International University"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#a9a9a9"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp"
+                    android:textSize="15sp"
+                    android:text="Bishkek, Ankara 1/8"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <!--MUIT-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5dp">
+
+            <ImageView
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:src="@drawable/alatoo"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp"
+                    android:textSize="20sp"
+                    android:text="Ala-Too International University"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#a9a9a9"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp"
+                    android:textSize="15sp"
+                    android:text="Bishkek, Ankara 1/8"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <!--MVShM-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5dp">
+
+            <ImageView
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:src="@drawable/alatoo"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp"
+                    android:textSize="20sp"
+                    android:text="Ala-Too International University"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#a9a9a9"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp"
+                    android:textSize="15sp"
+                    android:text="Bishkek, Ankara 1/8"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <!--Osh jur-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5dp">
+
+            <ImageView
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:src="@drawable/alatoo"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp"
+                    android:textSize="20sp"
+                    android:text="Ala-Too International University"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#a9a9a9"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp"
+                    android:textSize="15sp"
+                    android:text="Bishkek, Ankara 1/8"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <!--OshGU-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5dp">
+
+            <ImageView
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:src="@drawable/alatoo"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp"
+                    android:textSize="20sp"
+                    android:text="Ala-Too International University"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#a9a9a9"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp"
+                    android:textSize="15sp"
+                    android:text="Bishkek, Ankara 1/8"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <!--KMJurA-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5dp">
+
+            <ImageView
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:src="@drawable/alatoo"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp"
+                    android:textSize="20sp"
+                    android:text="Ala-Too International University"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#a9a9a9"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp"
+                    android:textSize="15sp"
+                    android:text="Bishkek, Ankara 1/8"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <!--KEU-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5dp">
+
+            <ImageView
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:src="@drawable/alatoo"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp"
+                    android:textSize="20sp"
+                    android:text="Ala-Too International University"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#a9a9a9"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp"
+                    android:textSize="15sp"
+                    android:text="Bishkek, Ankara 1/8"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <!--BGU-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5dp">
+
+            <ImageView
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:src="@drawable/alatoo"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp"
+                    android:textSize="20sp"
+                    android:text="Ala-Too International University"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#a9a9a9"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp"
+                    android:textSize="15sp"
+                    android:text="Bishkek, Ankara 1/8"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <!--AGUPKR-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5dp">
+
+            <ImageView
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:src="@drawable/alatoo"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp"
+                    android:textSize="20sp"
+                    android:text="Ala-Too International University"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#a9a9a9"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp"
+                    android:textSize="15sp"
+                    android:text="Bishkek, Ankara 1/8"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <!--FINAkademiya-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5dp">
+
+            <ImageView
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:src="@drawable/alatoo"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp"
+                    android:textSize="20sp"
+                    android:text="Ala-Too International University"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#a9a9a9"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp"
+                    android:textSize="15sp"
+                    android:text="Bishkek, Ankara 1/8"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
