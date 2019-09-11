@@ -10,7 +10,89 @@
         android:layout_height="match_parent"
         android:scrollbarAlwaysDrawVerticalTrack="true">
 
-        <!--Ala-Too-->
+
+        <LinearLayout
+            android:id="@+id/kgtu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5dp">
+
+            <ImageView
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:src="@drawable/kgtu"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:textStyle=""
+                    android:typeface="sans"
+                    android:layout_margin="5dp"
+                    android:textSize="20sp"
+                    android:text="Кыргызский технический университет"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#a9a9a9"
+                    android:textStyle=""
+                    android:typeface="sans"
+                    android:layout_margin="5dp"
+                    android:textSize="15sp"
+                    android:text="Бишкек,просп. Мира 66"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <!--KRSU-->
+        <LinearLayout
+            android:id="@+id/krsu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5dp">
+
+            <ImageView
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:src="@drawable/krsu"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:textStyle=""
+                    android:typeface="sans"
+                    android:layout_margin="5dp"
+                    android:textSize="20sp"
+                    android:text="Кыргызско-Российский Славянский университет"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#a9a9a9"
+                    android:textStyle=""
+                    android:typeface="sans"
+                    android:layout_margin="5dp"
+                    android:textSize="15sp"
+                    android:text="Бишкек,просп. Чуй 6"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -31,7 +113,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textColor="#000"
-                    android:textStyle="bold"
+                    android:textStyle=""
+                    android:typeface="sans"
                     android:layout_margin="5dp"
                     android:textSize="20sp"
                     android:text="Ala-Too International University"/>
@@ -40,15 +123,17 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textColor="#a9a9a9"
-                    android:textStyle="bold"
+                    android:textStyle=""
+                    android:typeface="sans"
                     android:layout_margin="5dp"
                     android:textSize="15sp"
-                    android:text="Bishkek, Ankara 1/8"/>
+                    android:text="Бишкек,ул. Анкара, 1/8"/>
 
             </LinearLayout>
         </LinearLayout>
 
-        <!--KRSU-->
+
+        <!--KGMA-->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -69,57 +154,21 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textColor="#000"
-                    android:textStyle="bold"
+                    android:textStyle=""
+                    android:typeface="sans"
                     android:layout_margin="5dp"
                     android:textSize="20sp"
-                    android:text="Ala-Too International University"/>
+                    android:text="Кыргызская государственная медицинская академия"/>
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textColor="#a9a9a9"
-                    android:textStyle="bold"
+                    android:textStyle=""
+                    android:typeface="sans"
                     android:layout_margin="5dp"
                     android:textSize="15sp"
-                    android:text="Bishkek, Ankara 1/8"/>
-
-            </LinearLayout>
-        </LinearLayout>
-
-        <!--KGMA-->
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_margin="5dp">
-
-            <ImageView
-                android:layout_width="75dp"
-                android:layout_height="75dp"
-                android:src="@drawable/alatoo"/>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textColor="#000"
-                    android:textStyle="bold"
-                    android:layout_margin="5dp"
-                    android:textSize="20sp"
-                    android:text="Ala-Too International University"/>
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textColor="#a9a9a9"
-                    android:textStyle="bold"
-                    android:layout_margin="5dp"
-                    android:textSize="15sp"
-                    android:text="Bishkek, Ankara 1/8"/>
+                    android:text="Бишкек ул. Ахунбаева 92"/>
 
             </LinearLayout>
         </LinearLayout>
@@ -134,7 +183,7 @@
             <ImageView
                 android:layout_width="75dp"
                 android:layout_height="75dp"
-                android:src="@drawable/alatoo"/>
+                android:src="@drawable/auca"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -145,19 +194,22 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textColor="#000"
-                    android:textStyle="bold"
+                    android:textStyle=""
+                    android:typeface="sans"
                     android:layout_margin="5dp"
                     android:textSize="20sp"
-                    android:text="Ala-Too International University"/>
+                    android:text="American University of Central Asia
+"/>
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textColor="#a9a9a9"
-                    android:textStyle="bold"
+                    android:textStyle=""
+                    android:typeface="sans"
                     android:layout_margin="5dp"
                     android:textSize="15sp"
-                    android:text="Bishkek, Ankara 1/8"/>
+                    android:text="Бишкек,Аалы Токомбаев,7/6"/>
 
             </LinearLayout>
         </LinearLayout>
@@ -172,7 +224,7 @@
             <ImageView
                 android:layout_width="75dp"
                 android:layout_height="75dp"
-                android:src="@drawable/alatoo"/>
+                android:src="@drawable/ktum"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -183,16 +235,19 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textColor="#000"
-                    android:textStyle="bold"
+                    android:textStyle=""
+                    android:typeface="sans"
                     android:layout_margin="5dp"
                     android:textSize="20sp"
-                    android:text="Ala-Too International University"/>
+                    android:text="Кыргызско-Турецкий Университет Манас
+"/>
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textColor="#a9a9a9"
-                    android:textStyle="bold"
+                    android:textStyle=""
+                    android:typeface="sans"
                     android:layout_margin="5dp"
                     android:textSize="15sp"
                     android:text="Bishkek, Ankara 1/8"/>
@@ -210,7 +265,7 @@
             <ImageView
                 android:layout_width="75dp"
                 android:layout_height="75dp"
-                android:src="@drawable/alatoo"/>
+                android:src="@drawable/knu"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -221,19 +276,21 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textColor="#000"
-                    android:textStyle="bold"
+                    android:textStyle=""
+                    android:typeface="sans"
                     android:layout_margin="5dp"
                     android:textSize="20sp"
-                    android:text="Ala-Too International University"/>
+                    android:text="Кыргызский национальный университет"/>
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textColor="#a9a9a9"
-                    android:textStyle="bold"
+                    android:textStyle=""
+                    android:typeface="sans"
                     android:layout_margin="5dp"
                     android:textSize="15sp"
-                    android:text="Bishkek, Ankara 1/8"/>
+                    android:text="Бишкек,улица Фрунзе,547"/>
 
             </LinearLayout>
         </LinearLayout>
@@ -248,7 +305,7 @@
             <ImageView
                 android:layout_width="75dp"
                 android:layout_height="75dp"
-                android:src="@drawable/alatoo"/>
+                android:src="@drawable/muit"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -259,19 +316,21 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textColor="#000"
-                    android:textStyle="bold"
+                    android:textStyle=""
+                    android:typeface="sans"
                     android:layout_margin="5dp"
                     android:textSize="20sp"
-                    android:text="Ala-Too International University"/>
+                    android:text="Международный университет инновационных технологий"/>
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textColor="#a9a9a9"
-                    android:textStyle="bold"
+                    android:textStyle=""
+                    android:typeface="sans"
                     android:layout_margin="5dp"
                     android:textSize="15sp"
-                    android:text="Bishkek, Ankara 1/8"/>
+                    android:text="Бишкек,ул.Анкара 1/17"/>
 
             </LinearLayout>
         </LinearLayout>
@@ -286,7 +345,7 @@
             <ImageView
                 android:layout_width="75dp"
                 android:layout_height="75dp"
-                android:src="@drawable/alatoo"/>
+                android:src="@drawable/mvssm"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -297,19 +356,21 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textColor="#000"
-                    android:textStyle="bold"
+                    android:textStyle=""
+                    android:typeface="sans"
                     android:layout_margin="5dp"
                     android:textSize="20sp"
-                    android:text="Ala-Too International University"/>
+                    android:text="Международная Высшая Школа Медицины"/>
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textColor="#a9a9a9"
-                    android:textStyle="bold"
+                    android:textStyle=""
+                    android:typeface="sans"
                     android:layout_margin="5dp"
                     android:textSize="15sp"
-                    android:text="Bishkek, Ankara 1/8"/>
+                    android:text="Интергельпо 1ф"/>
 
             </LinearLayout>
         </LinearLayout>
@@ -324,7 +385,7 @@
             <ImageView
                 android:layout_width="75dp"
                 android:layout_height="75dp"
-                android:src="@drawable/alatoo"/>
+                android:src="@drawable/oshju"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -335,19 +396,21 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textColor="#000"
-                    android:textStyle="bold"
+                    android:textStyle=""
+                    android:typeface="sans"
                     android:layout_margin="5dp"
                     android:textSize="20sp"
-                    android:text="Ala-Too International University"/>
+                    android:text="Ошский государственный юридический институт"/>
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textColor="#a9a9a9"
-                    android:textStyle="bold"
+                    android:textStyle=""
+                    android:typeface="sans"
                     android:layout_margin="5dp"
                     android:textSize="15sp"
-                    android:text="Bishkek, Ankara 1/8"/>
+                    android:text="г.Ош, ул.Салиева № 40в"/>
 
             </LinearLayout>
         </LinearLayout>
@@ -362,7 +425,7 @@
             <ImageView
                 android:layout_width="75dp"
                 android:layout_height="75dp"
-                android:src="@drawable/alatoo"/>
+                android:src="@drawable/oshg"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -373,19 +436,21 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textColor="#000"
-                    android:textStyle="bold"
+                    android:textStyle=""
+                    android:typeface="sans"
                     android:layout_margin="5dp"
                     android:textSize="20sp"
-                    android:text="Ala-Too International University"/>
+                    android:text="Ошский государственный университет, ОшГУ"/>
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textColor="#a9a9a9"
-                    android:textStyle="bold"
+                    android:textStyle=""
+                    android:typeface="sans"
                     android:layout_margin="5dp"
                     android:textSize="15sp"
-                    android:text="Bishkek, Ankara 1/8"/>
+                    android:text="г.Ош, улица Ленина 331"/>
 
             </LinearLayout>
         </LinearLayout>
@@ -400,7 +465,7 @@
             <ImageView
                 android:layout_width="75dp"
                 android:layout_height="75dp"
-                android:src="@drawable/alatoo"/>
+                android:src="@drawable/kmjua"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -411,19 +476,21 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textColor="#000"
-                    android:textStyle="bold"
+                    android:textStyle=""
+                    android:typeface="sans"
                     android:layout_margin="5dp"
                     android:textSize="20sp"
-                    android:text="Ala-Too International University"/>
+                    android:text="Кыргызская государственная юридическая академия"/>
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textColor="#a9a9a9"
-                    android:textStyle="bold"
+                    android:textStyle=""
+                    android:typeface="sans"
                     android:layout_margin="5dp"
                     android:textSize="15sp"
-                    android:text="Bishkek, Ankara 1/8"/>
+                    android:text="Бишкек,Проспект Чуй 180 А"/>
 
             </LinearLayout>
         </LinearLayout>
@@ -438,7 +505,7 @@
             <ImageView
                 android:layout_width="75dp"
                 android:layout_height="75dp"
-                android:src="@drawable/alatoo"/>
+                android:src="@drawable/keu"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -449,19 +516,21 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textColor="#000"
-                    android:textStyle="bold"
+                    android:textStyle=""
+                    android:typeface="sans"
                     android:layout_margin="5dp"
                     android:textSize="20sp"
-                    android:text="Ala-Too International University"/>
+                    android:text="Кыргызский экономический университет"/>
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textColor="#a9a9a9"
-                    android:textStyle="bold"
+                    android:textStyle=""
+                    android:typeface="sans"
                     android:layout_margin="5dp"
                     android:textSize="15sp"
-                    android:text="Bishkek, Ankara 1/8"/>
+                    android:text="Бишкек,ул. Тоголок Молдо 58"/>
 
             </LinearLayout>
         </LinearLayout>
@@ -476,7 +545,7 @@
             <ImageView
                 android:layout_width="75dp"
                 android:layout_height="75dp"
-                android:src="@drawable/alatoo"/>
+                android:src="@drawable/bgu"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -487,19 +556,21 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textColor="#000"
-                    android:textStyle="bold"
+                    android:textStyle=""
+                    android:typeface="sans"
                     android:layout_margin="5dp"
                     android:textSize="20sp"
-                    android:text="Ala-Too International University"/>
+                    android:text="Бишкекский гуманитарный университет"/>
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textColor="#a9a9a9"
-                    android:textStyle="bold"
+                    android:textStyle=""
+                    android:typeface="sans"
                     android:layout_margin="5dp"
                     android:textSize="15sp"
-                    android:text="Bishkek, Ankara 1/8"/>
+                    android:text="Бишкек,проспект Ч.Айтматова, 27"/>
 
             </LinearLayout>
         </LinearLayout>
@@ -514,7 +585,7 @@
             <ImageView
                 android:layout_width="75dp"
                 android:layout_height="75dp"
-                android:src="@drawable/alatoo"/>
+                android:src="@drawable/agp"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -525,19 +596,21 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textColor="#000"
-                    android:textStyle="bold"
+                    android:textStyle=""
+                    android:typeface="sans"
                     android:layout_margin="5dp"
                     android:textSize="20sp"
-                    android:text="Ala-Too International University"/>
+                    android:text="Академия государственного управления при Президенте"/>
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textColor="#a9a9a9"
-                    android:textStyle="bold"
+                    android:textStyle=""
+                    android:typeface="sans"
                     android:layout_margin="5dp"
                     android:textSize="15sp"
-                    android:text="Bishkek, Ankara 1/8"/>
+                    android:text="Бишкек,ул. Панфилова 237"/>
 
             </LinearLayout>
         </LinearLayout>
@@ -552,7 +625,7 @@
             <ImageView
                 android:layout_width="75dp"
                 android:layout_height="75dp"
-                android:src="@drawable/alatoo"/>
+                android:src="@drawable/fin"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -563,23 +636,66 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textColor="#000"
-                    android:textStyle="bold"
+                    android:textStyle=""
+                    android:typeface="sans"
                     android:layout_margin="5dp"
                     android:textSize="20sp"
-                    android:text="Ala-Too International University"/>
+                    android:text="Бишкекская финансово-экономическая академия"/>
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textColor="#a9a9a9"
-                    android:textStyle="bold"
+                    android:textStyle=""
+                    android:typeface="sans"
                     android:layout_margin="5dp"
                     android:textSize="15sp"
-                    android:text="Bishkek, Ankara 1/8"/>
+                    android:text="Бишкек,бул. Молодой Гвардии, 55"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5dp">
+
+            <ImageView
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:src="@drawable/kgus"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:textStyle=""
+                    android:typeface="sans"
+                    android:layout_margin="5dp"
+                    android:textSize="20sp"
+                    android:text="Кыргызский государственный университет"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#a9a9a9"
+                    android:textStyle=""
+                    android:typeface="sans"
+                    android:layout_margin="5dp"
+                    android:textSize="15sp"
+                    android:text="Бишкек,ул Абдылас Малдыбаев 34"/>
 
             </LinearLayout>
         </LinearLayout>
 
     </LinearLayout>
+
 
 </ScrollView>
