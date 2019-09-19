@@ -1,0 +1,90 @@
+[
+  {
+    "id": 0,
+    "name": "Международный Университет Алатоо",
+    "abbreviation": "МУА",
+    "school-type": "Частный",
+    "icon-path": "iau-icon.png",
+    "founded": "1995",
+    "location": "Тунгуч",
+    "rating": {
+      "general": 4.8,
+      "medical": 4.7,
+      "technical": 4.9,
+      "humanity": 4.4
+    },
+    "campuses": [
+      {
+        "name": "Главный",
+        "address": "ул.Анкара 1/8, Тунгуч",
+        "latitude": 42.855701,
+        "longitude": 74.681038
+      },
+      {
+        "name": "Главный",
+        "address": "ул.Анкара 1/8, Тунгуч",
+        "latitude": 42.855701,
+        "longitude": 74.681038
+      }
+    ],
+    "most-popular-majors": [
+      {
+        "name": "Компьютерная инженерия",
+        "percentage": 30.0
+      },
+      {
+        "name": "Дипломатия",
+        "percentage": 22.0
+      },
+      {
+        "name": "Дипломатия",
+        "percentage": 20.0
+      }
+    ],
+    "students": 2500
+  },
+  {
+    "id": 1,
+    "name": "Международный Университет Алатоо",
+    "abbreviation": "МУА",
+    "school-type": "Частный",
+    "icon-path": "iau-icon.png",
+    "founded": "1995",
+    "location": "Тунгуч",
+    "rating": {
+      "general": 4.8,
+      "medical": 4.7,
+      "technical": 4.9,
+      "humanity": 4.4
+    },
+    "campuses": [
+      {
+        "name": "Главный",
+        "address": "ул.Анкара 1/8, Тунгуч",
+        "latitude": 42.855701,
+        "longitude": 74.681038
+      },
+      {
+        "name": "Главный",
+        "address": "ул.Анкара 1/8, Тунгуч",
+        "latitude": 42.855701,
+        "longitude": 74.681038
+      }
+    ],
+    "most-popular-majors": [
+      {
+        "name": "Компьютерная инженерия",
+        "percentage": 30.0
+      },
+      {
+        "name": "Дипломатия",
+        "percentage": 22.0
+      },
+      {
+        "name": "Дипломатия",
+        "percentage": 20.0
+      }
+    ],
+    "students": 2500
+  }
+]
