@@ -1,0 +1,54 @@
+{
+  "id": 2,
+  "name": "",
+  "abbreviation": "",
+  "school-type": "",
+  "icon-path": "",
+  "address": "",
+  "city": "Бишкек",
+  "founded": "1954",
+  "description": "",
+  "entrance-info": "",
+  "contacts": {
+    "website": "",
+    "email": "",
+    "phone-number": ""
+  },
+  "rating": {
+    "general": 4.8,
+    "medical": 4.7,
+    "technical": 4.9,
+    "humanity": 4.4,
+    "low": 5.0
+  },
+  "campuses": [
+    {
+      "name": "Главный",
+      "address": "",
+      "latitude": 42.8447043,
+      "longitude": 74.587161
+    }
+  ],
+  "most-popular-majors": [
+    {
+      "id": 0,
+      "name": "",
+      "lowest-fee": 0,
+      "highest-fee": 0,
+      "currency": "сом",
+      "prestigious": 30.0
+    }
+  ],
+  "institutions": [
+    {
+      "id": 6,
+      "name": "",
+      "lowest-fee": 0,
+      "highest-fee": 0,
+      "currency": "сом",
+      "prestigious": 0.0
+    }
+  ],
+  "teachers": 600,
+  "students": 2500
+}

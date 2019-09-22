@@ -22,18 +22,30 @@
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
-    <style name="InfoTitleAppearance" parent="Theme.AppCompat.Light">
-        <item name="android:textSize">24sp</item>
+    <style name="TextAppearance.AppCompat.Title.Collapsed" parent="android:TextAppearance">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="TextAppearance.AppCompat.Title.Expanded" parent="android:TextAppearance">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@android:color/white</item>
     </style>
 
     <style name="TextTitles">
-        <item name="android:textSize">20sp</item>
+        <item name="android:textSize">18sp</item>
         <item name="android:textColor">@color/colorAccent</item>
     </style>
 
     <style name="TextInfo">
-        <item name="android:textSize">18sp</item>
+        <item name="android:textSize">14sp</item>
         <item name="android:textColor">#333</item>
+    </style>
+
+    <style name="TextAppearance.AppCompat.Body1.Ranking">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:paddingStart">16dp</item>
     </style>
 
 </resources>

@@ -25,4 +25,8 @@ public class UniversityRepository {
     public LiveData<List<University>> getUniversities() {
         return universityDao.getAll();
     }
+
+    public LiveData<University> getUniversityById(int id) {
+        return universityDao.getUniversityById(id);
+    }
 }

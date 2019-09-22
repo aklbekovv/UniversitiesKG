@@ -71,7 +71,7 @@ public class HomeFragment extends BaseFragment {
     }
 
     private void initObservers() {
-        viewModel.getUinversites().observe(this, universities -> {
+        viewModel.getUniversities().observe(this, universities -> {
             if (universities != null) {
                 adapter.updateUniversities(universities);
             }

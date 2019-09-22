@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/cl_rank_general"
+            android:layout_width="match_parent"
+            android:layout_height="140dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/ranking_general" />
+
+            <TextView
+                style="@style/TextAppearance.AppCompat.Body1.Ranking"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@color/colorRankingTextBackground"
+                android:gravity="center_vertical"
+                android:text="@string/ranking_general"
+                app:layout_constraintBottom_toBottomOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/cl_rank_technical"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_marginTop="8dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/ranking_technical" />
+
+            <TextView
+                style="@style/TextAppearance.AppCompat.Body1.Ranking"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@color/colorRankingTextBackground"
+                android:gravity="center_vertical"
+                android:text="@string/ranking_technical"
+                app:layout_constraintBottom_toBottomOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/cl_rank_medical"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_marginTop="8dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/ranking_medical" />
+
+            <TextView
+                style="@style/TextAppearance.AppCompat.Body1.Ranking"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@color/colorRankingTextBackground"
+                android:gravity="center_vertical"
+                android:text="@string/ranking_medical"
+                app:layout_constraintBottom_toBottomOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/cl_rank_law"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_marginTop="8dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/ranking_law"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="-168dp" />
+
+            <TextView
+                style="@style/TextAppearance.AppCompat.Body1.Ranking"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@color/colorRankingTextBackground"
+                android:gravity="center_vertical"
+                android:text="@string/ranking_law"
+                app:layout_constraintBottom_toBottomOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/cl_rank_humanity"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_marginTop="8dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/ranking_humanity" />
+
+            <TextView
+                style="@style/TextAppearance.AppCompat.Body1.Ranking"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@color/colorRankingTextBackground"
+                android:gravity="center_vertical"
+                android:text="@string/ranking_humanity"
+                app:layout_constraintBottom_toBottomOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+
+</ScrollView>

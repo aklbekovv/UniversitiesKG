@@ -8,12 +8,15 @@ public class Campus {
     @SerializedName("name")
     @Expose
     private String name;
+
     @SerializedName("address")
     @Expose
     private String address;
+
     @SerializedName("latitude")
     @Expose
     private Double latitude;
+
     @SerializedName("longitude")
     @Expose
     private Double longitude;

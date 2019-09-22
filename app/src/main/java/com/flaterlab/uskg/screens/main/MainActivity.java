@@ -5,30 +5,27 @@ import android.view.MenuItem;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
-import androidx.work.OneTimeWorkRequest;
-import androidx.work.WorkManager;
+import androidx.fragment.app.FragmentStatePagerAdapter;
 
 import com.flaterlab.uskg.R;
 import com.flaterlab.uskg.data.AppDatabase;
-import com.flaterlab.uskg.data.SeedDatabaseWorker;
 import com.flaterlab.uskg.util.BaseActivity;
+import com.flaterlab.uskg.util.ViewPagerAdapter;
+import com.flaterlab.uskg.views.NonSwipeableViewPager;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MainActivity extends BaseActivity implements
         BottomNavigationView.OnNavigationItemSelectedListener {
+
+    private NonSwipeableViewPager viewPager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        BottomNavigationView bottomNav = findViewById(R.id.bottom_navigation);
-        bottomNav.setOnNavigationItemSelectedListener(this);
-
-        if (savedInstanceState == null) {
-            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
-                    new HomeFragment()).commit();
-        }
+        initViewPager();
+        initBottomNavigation();
 
         AppDatabase.getInstance(this).getUniversitiesDao().getAll().observe(this, us -> {
             if (us != null) {
@@ -37,24 +34,40 @@ public class MainActivity extends BaseActivity implements
         });
     }
 
+    private void initViewPager() {
+        viewPager = findViewById(R.id.view_pager);
+        Fragment[] fragments = {
+                new HomeFragment(),
+                new RankingFragment(),
+                new AboutFragment()
+        };
+        ViewPagerAdapter viewPagerAdapter = new ViewPagerAdapter(
+                getSupportFragmentManager(),
+                FragmentStatePagerAdapter.BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT,
+                fragments);
+        viewPager.setAdapter(viewPagerAdapter);
+        viewPager.setCurrentItem(0);
+    }
+
+    private void initBottomNavigation() {
+        BottomNavigationView bottomNav = findViewById(R.id.bottom_navigation);
+        bottomNav.setOnNavigationItemSelectedListener(this);
+    }
+
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
-        Fragment selectedFragment = null;
-
+        int currentItemPosition = 0;
         switch (menuItem.getItemId()) {
             case R.id.nav_home:
-                selectedFragment = new HomeFragment();
                 break;
             case R.id.nav_favorites:
-                selectedFragment = new RankingFragment();
+                currentItemPosition = 1;
                 break;
             case R.id.nav_search:
-                selectedFragment = new AboutFragment();
+                currentItemPosition = 2;
                 break;
         }
-
-        getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
-                selectedFragment).commit();
+        viewPager.setCurrentItem(currentItemPosition);
         return true;
     }
 }

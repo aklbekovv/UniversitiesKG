@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Университеты Кыргызстана</string>
+    <string name="action_settings">Настройки</string>
+    <string name="info_msg_founded_in">Основан</string>
+    <string name="info_msg_school_type">Тип</string>
+    <string name="info_title_address">Адрес:</string>
+    <string name="info_title_city">Город:</string>
+    <string name="info_title_description">Общее:</string>
+    <string name="info_title_email">Эл.почта:</string>
+    <string name="info_title_entrance_info">Информация о поступлении:</string>
+    <string name="info_title_majors">Оделении:</string>
+    <string name="info_title_students">Студенты:</string>
+    <string name="info_title_tearcher">Учителя:</string>
+    <string name="info_title_website">Вебсайт:</string>
+    <string name="tab_contacts">Контакты</string>
+    <string name="tab_info">Инфо</string>
+    <string name="tab_map">Карта:</string>
+    <string name="nav_about">О приложении</string>
+    <string name="nav_ranking">Рейтинг</string>
+    <string name="nav_universities">Университеты</string>
+    <string name="ranking_general">Общий</string>
+    <string name="ranking_humanity">Гуманитарный</string>
+    <string name="ranking_law">Юридический</string>
+    <string name="ranking_medical">Медицинский</string>
+    <string name="ranking_technical">Технический</string>
+</resources>

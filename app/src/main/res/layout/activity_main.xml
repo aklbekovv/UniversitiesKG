@@ -6,13 +6,13 @@
     android:layout_height="match_parent"
     tools:context="com.flaterlab.uskg.screens.main.MainActivity">
 
-    <FrameLayout
-        android:id="@+id/fragment_container"
+    <com.flaterlab.uskg.views.NonSwipeableViewPager
+        android:id="@+id/view_pager"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_above="@id/bottom_navigation">
+        android:layout_above="@+id/bottom_navigation">
 
-    </FrameLayout>
+    </com.flaterlab.uskg.views.NonSwipeableViewPager>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_navigation"

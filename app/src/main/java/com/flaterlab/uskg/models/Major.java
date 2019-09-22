@@ -5,12 +5,37 @@ import com.google.gson.annotations.SerializedName;
 
 public class Major {
 
+    @SerializedName("id")
+    @Expose
+    private int id;
+
     @SerializedName("name")
     @Expose
     private String name;
-    @SerializedName("percentage")
+
+    @SerializedName("lowest-fee")
     @Expose
-    private Double percentage;
+    private long lowestFee;
+
+    @SerializedName("highest-fee")
+    @Expose
+    private long highestFee;
+
+    @SerializedName("currency")
+    @Expose
+    private String currency;
+
+    @SerializedName("prestigious")
+    @Expose
+    private Double prestigious;
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 
     public String getName() {
         return name;
@@ -20,19 +45,47 @@ public class Major {
         this.name = name;
     }
 
-    public Double getPercentage() {
-        return percentage;
+    public long getLowestFee() {
+        return lowestFee;
     }
 
-    public void setPercentage(Double percentage) {
-        this.percentage = percentage;
+    public void setLowestFee(long lowestFee) {
+        this.lowestFee = lowestFee;
+    }
+
+    public long getHighestFee() {
+        return highestFee;
+    }
+
+    public void setHighestFee(long highestFee) {
+        this.highestFee = highestFee;
+    }
+
+    public String getCurrency() {
+        return currency;
+    }
+
+    public void setCurrency(String currency) {
+        this.currency = currency;
+    }
+
+    public Double getPrestigious() {
+        return prestigious;
+    }
+
+    public void setPrestigious(Double prestigious) {
+        this.prestigious = prestigious;
     }
 
     @Override
     public String toString() {
         return "Major{" +
-                "name='" + name + '\'' +
-                ", percentage=" + percentage +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", lowestFee=" + lowestFee +
+                ", highestFee=" + highestFee +
+                ", currency='" + currency + '\'' +
+                ", prestigious=" + prestigious +
                 '}';
     }
 }

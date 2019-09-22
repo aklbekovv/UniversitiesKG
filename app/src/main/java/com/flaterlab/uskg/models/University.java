@@ -39,13 +39,30 @@ public class University implements Serializable {
     @Expose
     private String iconPath;
 
+    @SerializedName("address")
+    @Expose
+    private String address;
+
+    @SerializedName("city")
+    @Expose
+    private String city;
+
     @SerializedName("founded")
     @Expose
     private String founded;
 
-    @SerializedName("location")
+    @SerializedName("description")
     @Expose
-    private String location;
+    private String description;
+
+    @SerializedName("entrance-info")
+    @Expose
+    private String entranceInfo;
+
+    @Embedded
+    @SerializedName("contacts")
+    @Expose
+    private Contacts contacts;
 
     @Embedded
     @SerializedName("rating")
@@ -63,6 +80,16 @@ public class University implements Serializable {
     @SerializedName("most-popular-majors")
     @Expose
     private List<Major> mostPopularMajors = null;
+
+    @TypeConverters(MajorTypeConverter.class)
+    @ColumnInfo(name = "institutions")
+    @SerializedName("institutions")
+    @Expose
+    private List<Major> institutions = null;
+
+    @SerializedName("teachers")
+    @Expose
+    private int teachers;
 
     @SerializedName("students")
     @Expose
@@ -108,6 +135,22 @@ public class University implements Serializable {
         this.iconPath = iconPath;
     }
 
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    public String getCity() {
+        return city;
+    }
+
+    public void setCity(String city) {
+        this.city = city;
+    }
+
     public String getFounded() {
         return founded;
     }
@@ -116,12 +159,28 @@ public class University implements Serializable {
         this.founded = founded;
     }
 
-    public String getLocation() {
-        return location;
+    public String getDescription() {
+        return description;
     }
 
-    public void setLocation(String location) {
-        this.location = location;
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public String getEntranceInfo() {
+        return entranceInfo;
+    }
+
+    public void setEntranceInfo(String entranceInfo) {
+        this.entranceInfo = entranceInfo;
+    }
+
+    public Contacts getContacts() {
+        return contacts;
+    }
+
+    public void setContacts(Contacts contacts) {
+        this.contacts = contacts;
     }
 
     public Rating getRating() {
@@ -144,8 +203,24 @@ public class University implements Serializable {
         return mostPopularMajors;
     }
 
-    public void setMostPopularMajors(List<Major> mostPopularMajor) {
-        this.mostPopularMajors = mostPopularMajor;
+    public void setMostPopularMajors(List<Major> mostPopularMajors) {
+        this.mostPopularMajors = mostPopularMajors;
+    }
+
+    public List<Major> getInstitutions() {
+        return institutions;
+    }
+
+    public void setInstitutions(List<Major> institutions) {
+        this.institutions = institutions;
+    }
+
+    public int getTeachers() {
+        return teachers;
+    }
+
+    public void setTeachers(int teachers) {
+        this.teachers = teachers;
     }
 
     public int getStudents() {
@@ -164,11 +239,17 @@ public class University implements Serializable {
                 ", abbreviation='" + abbreviation + '\'' +
                 ", schoolType='" + schoolType + '\'' +
                 ", iconPath='" + iconPath + '\'' +
+                ", address='" + address + '\'' +
+                ", city='" + city + '\'' +
                 ", founded='" + founded + '\'' +
-                ", location='" + location + '\'' +
+                ", description='" + description + '\'' +
+                ", entranceInfo='" + entranceInfo + '\'' +
+                ", contacts=" + contacts +
                 ", rating=" + rating +
                 ", campus=" + campus +
                 ", mostPopularMajors=" + mostPopularMajors +
+                ", institutions=" + institutions +
+                ", teachers=" + teachers +
                 ", students=" + students +
                 '}';
     }

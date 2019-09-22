@@ -3,16 +3,16 @@
     <item
         android:id="@+id/nav_home"
         android:icon="@drawable/ic_home_black_24dp"
-        android:title="Universities" />
+        android:title="@string/nav_universities" />
 
     <item
         android:id="@+id/nav_favorites"
         android:icon="@drawable/ic_ranking_black_24dp"
-        android:title="Ranking" />
+        android:title="@string/nav_ranking" />
 
     <item
         android:id="@+id/nav_search"
         android:icon="@drawable/ic_about_black_24dp"
-        android:title="About" />
+        android:title="@string/nav_about" />
 
 </menu>

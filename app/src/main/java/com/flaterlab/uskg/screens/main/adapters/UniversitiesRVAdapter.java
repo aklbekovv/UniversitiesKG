@@ -13,6 +13,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.flaterlab.uskg.R;
 import com.flaterlab.uskg.models.University;
+import com.flaterlab.uskg.util.CommonUtils;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -47,8 +48,7 @@ public class UniversitiesRVAdapter extends
         String iconPath = university.getIconPath();
         if (iconPath != null && !iconPath.isEmpty()) {
             try {
-                Drawable icon = Drawable.createFromStream(context.getAssets().open(iconPath), null);
-                holder.ivIcon.setImageDrawable(icon);
+                holder.ivIcon.setImageDrawable(CommonUtils.getIcon(context, university.getIconPath()));
             } catch (IOException ignored) {
             }
         }
