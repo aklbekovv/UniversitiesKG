@@ -25,4 +25,10 @@
     <string name="ranking_medical">Medical</string>
     <string name="ranking_law">Law</string>
     <string name="ranking_humanity">Humanity</string>
+    <string name="rank_title">%s ranking</string>
+    <string name="order_number">%d.</string>
+    <string name="info_title_phone_number">Phone number:</string>
+    <string name="html">
+    </string>
+    <string name="ranking_business">Business management</string>
 </resources>

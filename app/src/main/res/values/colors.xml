@@ -3,8 +3,8 @@
     <color name="colorPrimary">#0072BA</color>
     <color name="colorPrimaryDark">#00406D</color>
     <color name="colorAccent">#33B4E4</color>
-    <color name="colorSplash">#33B4E4</color>
-    <color name="colorSplashPrimaryDark">#0072BA</color>
+    <color name="colorSplash">#ffffff</color>
+    <color name="colorSplashPrimaryDark">#ffffff</color>
     <color name="colorTabLayoutBackground">#33B4E4</color>
     <color name="colorTabLayoutText">#91DAF7</color>
     <color name="colorTabLayoutSelectedText">#fff</color>

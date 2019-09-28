@@ -1,6 +1,5 @@
 package com.flaterlab.uskg.screens.main;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -13,8 +12,6 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.flaterlab.uskg.R;
-import com.flaterlab.uskg.models.University;
-import com.flaterlab.uskg.screens.info.InfoActivity;
 import com.flaterlab.uskg.screens.main.adapters.UniversitiesRVAdapter;
 import com.flaterlab.uskg.util.BaseFragment;
 import com.flaterlab.uskg.util.InjectorUtils;
@@ -59,21 +56,13 @@ public class HomeFragment extends BaseFragment {
         adapter = new UniversitiesRVAdapter();
         rvUniversities.setAdapter(adapter);
 
-        adapter.setOnUniversityClickListener(this::startInfoActivity);
-
         initObservers();
-    }
-
-    private void startInfoActivity(University university) {
-        Intent intent = new Intent(requireContext(), InfoActivity.class);
-        intent.putExtra(InfoActivity.UNIVERSITY_ID, university.getId());
-        startActivity(intent);
     }
 
     private void initObservers() {
         viewModel.getUniversities().observe(this, universities -> {
             if (universities != null) {
-                adapter.updateUniversities(universities);
+                adapter.updateUniversities(universities, false);
             }
         });
     }

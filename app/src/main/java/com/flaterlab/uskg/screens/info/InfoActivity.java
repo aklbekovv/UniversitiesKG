@@ -150,8 +150,6 @@ public class InfoActivity extends BaseActivity {
                         .beginTransaction()
                         .replace(R.id.fl_container, fragments[tab.getPosition()])
                         .commit();
-
-//                setAppBarLayoutEnabled(tab.getPosition() != 1);
             }
 
             @Override
@@ -162,27 +160,6 @@ public class InfoActivity extends BaseActivity {
             @Override
             public void onTabReselected(TabLayout.Tab tab) {
 
-            }
-        });
-    }
-
-    private void setAppBarLayoutEnabled(boolean enabled) {
-        if (!enabled) {
-            appBarLayout.setExpanded(false, true);
-        }
-
-        ViewCompat.setNestedScrollingEnabled(nestedScrollView, enabled);
-        CoordinatorLayout.LayoutParams params =
-                (CoordinatorLayout.LayoutParams) appBarLayout.getLayoutParams();
-        if (params.getBehavior() == null) {
-            params.setBehavior(new AppBarLayout.Behavior());
-        }
-
-        AppBarLayout.Behavior behavior = (AppBarLayout.Behavior) params.getBehavior();
-        behavior.setDragCallback(new AppBarLayout.Behavior.DragCallback() {
-            @Override
-            public boolean canDrag(@NonNull AppBarLayout appBarLayout) {
-                return enabled;
             }
         });
     }

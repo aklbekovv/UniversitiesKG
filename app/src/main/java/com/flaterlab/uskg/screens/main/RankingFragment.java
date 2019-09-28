@@ -1,18 +1,19 @@
 package com.flaterlab.uskg.screens.main;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
-import androidx.coordinatorlayout.widget.CoordinatorLayout;
 import androidx.lifecycle.ViewModelProvider;
 
 import com.flaterlab.uskg.R;
+import com.flaterlab.uskg.models.Rating;
+import com.flaterlab.uskg.screens.ranking.RankingActivity;
 import com.flaterlab.uskg.util.BaseFragment;
 import com.flaterlab.uskg.util.InjectorUtils;
 import com.flaterlab.uskg.viewmodels.UniversityListViewModel;
@@ -20,7 +21,9 @@ import com.flaterlab.uskg.viewmodels.UniversityListViewModel;
 
 public class RankingFragment extends BaseFragment {
     private UniversityListViewModel viewModel;
-    private ConstraintLayout rankGeneral, rankTechnical, rankMedical, rankLaw, rankHumanity;
+    private ConstraintLayout
+            rankGeneral, rankTechnical, rankMedical,
+            rankLaw, rankHumanity, rankBusiness;
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
@@ -50,33 +53,40 @@ public class RankingFragment extends BaseFragment {
         rankMedical = view.findViewById(R.id.cl_rank_medical);
         rankLaw = view.findViewById(R.id.cl_rank_law);
         rankHumanity = view.findViewById(R.id.cl_rank_humanity);
+        rankBusiness = view.findViewById(R.id.cl_rank_business);
 
         initOnClickListeners();
     }
 
     private void initOnClickListeners() {
         rankGeneral.setOnClickListener(view -> {
-            showToast();
+            startRanksActivity(Rating.GENERAL);
         });
 
         rankTechnical.setOnClickListener(view -> {
-            showToast();
+            startRanksActivity(Rating.TECHNICAL);
         });
 
         rankMedical.setOnClickListener(view -> {
-            showToast();
+            startRanksActivity(Rating.MEDICAL);
         });
 
         rankLaw.setOnClickListener(view -> {
-            showToast();
+            startRanksActivity(Rating.LAW);
         });
 
         rankHumanity.setOnClickListener(view -> {
-            showToast();
+            startRanksActivity(Rating.HUMANITY);
+        });
+
+        rankBusiness.setOnClickListener(view -> {
+            startRanksActivity(Rating.BUSINESS);
         });
     }
 
-    private void showToast() {
-        Toast.makeText(requireContext(), "Not implemented yet", Toast.LENGTH_SHORT).show();
+    private void startRanksActivity(int rankingType) {
+        Intent intent = new Intent(requireContext(), RankingActivity.class);
+        intent.putExtra(RankingActivity.RANK_TYPE, rankingType);
+        startActivity(intent);
     }
 }

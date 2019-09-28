@@ -20,7 +20,8 @@
       "medical": 9,
       "technical": 4.9,
       "humanity": 4.4,
-      "low": 5.0
+      "law": 5.0,
+      "business-man": 5.0
     },
     "campuses": [
       {
@@ -110,11 +111,12 @@
       "phone-number": "+996 (312) 567-175"
     },
     "rating": {
-      "general": 4.8,
+      "general": 19,
       "medical": 4.7,
       "technical": 4.9,
       "humanity": 4.4,
-      "low": 5.0
+      "law": 5.0,
+      "business-man": 5.0
     },
     "campuses": [
       {
@@ -212,10 +214,12 @@
       "phone-number": "+996 (312) 662-567, +996 (312) 431-169"
     },
     "rating": {
-      "general": 4.8,
+      "general": 18,
       "medical": 4.7,
       "technical": 4.9,
-      "humanity": 4.4
+      "humanity": 4.4,
+      "law": 5.0,
+      "business-man": 5.0
     },
     "campuses": [
       {
@@ -304,11 +308,12 @@
       "phone-number": "+996 (312) 565-946"
     },
     "rating": {
-      "general": 4.8,
-      "medical": 4.7,
+      "general": 16,
+      "medical": 20,
       "technical": 4.9,
       "humanity": 4.4,
-      "low": 5.0
+      "law": 5.0,
+      "business-man": 5.0
     },
     "campuses": [
       {
@@ -389,11 +394,12 @@
       "phone-number": "+996 (312) 915-019, +996 (312) 915-011"
     },
     "rating": {
-      "general": 4.8,
+      "general": 15,
       "medical": 4.7,
       "technical": 4.9,
       "humanity": 4.4,
-      "low": 5.0
+      "law": 5.0,
+      "business-man": 5.0
     },
     "campuses": [
       {
@@ -507,11 +513,12 @@
       "phone-number": "+996 (312) 541-942"
     },
     "rating": {
-      "general": 4.8,
+      "general": 14,
       "medical": 4.7,
       "technical": 4.9,
       "humanity": 4.4,
-      "low": 5.0
+      "law": 5.0,
+      "business-man": 5.0
     },
     "campuses": [
       {
@@ -552,11 +559,12 @@
       "phone-number": "+996(312) 323-394"
     },
     "rating": {
-      "general": 4.8,
+      "general": 13,
       "medical": 4.7,
       "technical": 4.9,
       "humanity": 4.4,
-      "low": 5.0
+      "law": 5.0,
+      "business-man": 5.0
     },
     "campuses": [
       {

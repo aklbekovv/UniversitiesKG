@@ -13,7 +13,6 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-
         <activity
             android:name=".screens.splash.SplashActivity"
             android:theme="@style/SplashTheme">
@@ -23,21 +22,24 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".screens.main.MainActivity">
-
-        </activity>
-
         <activity
             android:name=".screens.info.InfoActivity"
             android:label="@string/title_activity_info"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:parentActivityName=".screens.main.MainActivity">
-
+            android:parentActivityName=".screens.main.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".screens.main.MainActivity" />
-
         </activity>
+        <activity android:name=".screens.main.MainActivity" />
+        <activity
+            android:name=".screens.ranking.RankingActivity"
+            android:parentActivityName=".screens.main.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".screens.main.MainActivity" />
+        </activity>
+
     </application>
 
 </manifest>

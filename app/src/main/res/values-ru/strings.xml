@@ -24,4 +24,5 @@
     <string name="ranking_law">Юридический</string>
     <string name="ranking_medical">Медицинский</string>
     <string name="ranking_technical">Технический</string>
+    <string name="rank_title">%s рейтинг</string>
 </resources>

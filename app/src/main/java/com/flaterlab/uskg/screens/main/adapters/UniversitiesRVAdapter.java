@@ -1,7 +1,7 @@
 package com.flaterlab.uskg.screens.main.adapters;
 
 import android.content.Context;
-import android.graphics.drawable.Drawable;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -13,6 +13,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.flaterlab.uskg.R;
 import com.flaterlab.uskg.models.University;
+import com.flaterlab.uskg.screens.info.InfoActivity;
 import com.flaterlab.uskg.util.CommonUtils;
 
 import java.io.IOException;
@@ -25,6 +26,7 @@ public class UniversitiesRVAdapter extends
     private Context context;
     private List<University> universities = new ArrayList<>();
     private OnUniversityClickListener onUniversityClickListener;
+    private boolean withOrderNumber = false;
 
     @NonNull
     @Override
@@ -43,7 +45,14 @@ public class UniversitiesRVAdapter extends
     public void onBindViewHolder(@NonNull UniversityViewHolder holder, int position) {
         University university = universities.get(position);
         holder.tvName.setText(university.getName());
-        holder.tvAddress.setText(university.getCampus().get(0).getAddress());
+        holder.tvAddress.setText(university.getAddress());
+
+        if (withOrderNumber) {
+            holder.tvOrderNum.setText(
+                    String.format(context.getString(R.string.order_number), position + 1));
+            holder.tvOrderNum.setVisibility(View.VISIBLE);
+            holder.tvAddress.setVisibility(View.GONE);
+        }
 
         String iconPath = university.getIconPath();
         if (iconPath != null && !iconPath.isEmpty()) {
@@ -59,7 +68,8 @@ public class UniversitiesRVAdapter extends
         return universities.size();
     }
 
-    public void updateUniversities(List<University> universities) {
+    public void updateUniversities(List<University> universities, boolean showOrder) {
+        withOrderNumber = showOrder;
         this.universities = universities;
         notifyDataSetChanged();
     }
@@ -74,11 +84,12 @@ public class UniversitiesRVAdapter extends
 
     class UniversityViewHolder extends RecyclerView.ViewHolder {
         ImageView ivIcon;
-        TextView tvName, tvAddress;
+        TextView tvOrderNum, tvName, tvAddress;
 
         UniversityViewHolder(@NonNull View itemView) {
             super(itemView);
             ivIcon = itemView.findViewById(R.id.iv_icon);
+            tvOrderNum = itemView.findViewById(R.id.tv_order_number);
             tvName = itemView.findViewById(R.id.tv_name);
             tvAddress = itemView.findViewById(R.id.tv_address);
 
@@ -86,7 +97,14 @@ public class UniversitiesRVAdapter extends
                 if (onUniversityClickListener != null) {
                     onUniversityClickListener.onClick(universities.get(getAdapterPosition()));
                 }
+                startInfoActivity(universities.get(getAdapterPosition()));
             });
+        }
+
+        private void startInfoActivity(University university) {
+            Intent intent = new Intent(context, InfoActivity.class);
+            intent.putExtra(InfoActivity.UNIVERSITY_ID, university.getId());
+            context.startActivity(intent);
         }
     }
 }
