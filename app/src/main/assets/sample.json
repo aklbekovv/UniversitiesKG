@@ -19,7 +19,8 @@
     "medical": 4.7,
     "technical": 4.9,
     "humanity": 4.4,
-    "low": 5.0
+    "low": 5.0,
+    "business-man": 5.0
   },
   "campuses": [
     {
@@ -49,6 +50,6 @@
       "prestigious": 0.0
     }
   ],
-  "teachers": 600,
-  "students": 2500
+  "teachers": 0,
+  "students": 0
 }

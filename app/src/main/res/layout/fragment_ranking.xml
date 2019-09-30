@@ -15,7 +15,9 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/cl_rank_general"
             android:layout_width="match_parent"
-            android:layout_height="140dp">
+            android:layout_height="140dp"
+            android:foreground="?attr/selectableItemBackground"
+            tools:ignore="UnusedAttribute">
 
             <ImageView
                 android:layout_width="match_parent"
@@ -38,7 +40,9 @@
             android:id="@+id/cl_rank_technical"
             android:layout_width="match_parent"
             android:layout_height="140dp"
-            android:layout_marginTop="8dp">
+            android:layout_marginTop="8dp"
+            android:foreground="?attr/selectableItemBackground"
+            tools:ignore="UnusedAttribute">
 
             <ImageView
                 android:layout_width="match_parent"
@@ -61,7 +65,9 @@
             android:id="@+id/cl_rank_medical"
             android:layout_width="match_parent"
             android:layout_height="140dp"
-            android:layout_marginTop="8dp">
+            android:layout_marginTop="8dp"
+            android:foreground="?attr/selectableItemBackground"
+            tools:ignore="UnusedAttribute">
 
             <ImageView
                 android:layout_width="match_parent"
@@ -84,7 +90,9 @@
             android:id="@+id/cl_rank_law"
             android:layout_width="match_parent"
             android:layout_height="140dp"
-            android:layout_marginTop="8dp">
+            android:layout_marginTop="8dp"
+            android:foreground="?attr/selectableItemBackground"
+            tools:ignore="UnusedAttribute">
 
             <ImageView
                 android:layout_width="match_parent"
@@ -109,7 +117,9 @@
             android:id="@+id/cl_rank_humanity"
             android:layout_width="match_parent"
             android:layout_height="140dp"
-            android:layout_marginTop="8dp">
+            android:layout_marginTop="8dp"
+            android:foreground="?attr/selectableItemBackground"
+            tools:ignore="UnusedAttribute">
 
             <ImageView
                 android:layout_width="match_parent"
@@ -132,7 +142,9 @@
             android:id="@+id/cl_rank_business"
             android:layout_width="match_parent"
             android:layout_height="140dp"
-            android:layout_marginTop="8dp">
+            android:layout_marginTop="8dp"
+            android:foreground="?attr/selectableItemBackground"
+            tools:ignore="UnusedAttribute">
 
             <ImageView
                 android:layout_width="match_parent"
