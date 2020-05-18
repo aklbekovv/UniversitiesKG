@@ -1,5 +1,4 @@
 package com.flaterlab.uskg.screens.main;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -17,8 +16,6 @@ import com.flaterlab.uskg.screens.ranking.RankingActivity;
 import com.flaterlab.uskg.util.BaseFragment;
 import com.flaterlab.uskg.util.InjectorUtils;
 import com.flaterlab.uskg.viewmodels.UniversityListViewModel;
-
-
 public class RankingFragment extends BaseFragment {
     private UniversityListViewModel viewModel;
     private ConstraintLayout
@@ -57,7 +54,6 @@ public class RankingFragment extends BaseFragment {
 
         initOnClickListeners();
     }
-
     private void initOnClickListeners() {
         rankGeneral.setOnClickListener(view -> {
             startRanksActivity(Rating.GENERAL);

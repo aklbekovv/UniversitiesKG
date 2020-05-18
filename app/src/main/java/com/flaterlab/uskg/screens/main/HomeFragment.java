@@ -1,5 +1,4 @@
 package com.flaterlab.uskg.screens.main;
-
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -16,10 +15,7 @@ import com.flaterlab.uskg.screens.main.adapters.UniversitiesRVAdapter;
 import com.flaterlab.uskg.util.BaseFragment;
 import com.flaterlab.uskg.util.InjectorUtils;
 import com.flaterlab.uskg.viewmodels.UniversityListViewModel;
-
-
 public class HomeFragment extends BaseFragment {
-
     private UniversitiesRVAdapter adapter;
     private UniversityListViewModel viewModel;
 
@@ -28,7 +24,6 @@ public class HomeFragment extends BaseFragment {
         super.onCreate(savedInstanceState);
         initViewModel();
     }
-
     private void initViewModel() {
         viewModel = new ViewModelProvider(
                 requireActivity(),
@@ -58,7 +53,6 @@ public class HomeFragment extends BaseFragment {
 
         initObservers();
     }
-
     private void initObservers() {
         viewModel.getUniversities().observe(this, universities -> {
             if (universities != null) {

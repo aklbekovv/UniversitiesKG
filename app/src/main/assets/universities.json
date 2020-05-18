@@ -1,7 +1,7 @@
 [
   {
-    "id": 0,
     "name": "Международный университет Алатоо",
+    "id": 0,
     "abbreviation": "МУА",
     "school-type": "Частный",
     "icon-path": "iau-icon.png",
@@ -16,17 +16,17 @@
       "phone-number": "+996 (312) 631-425"
     },
     "rating": {
-      "general": 20,
-      "medical": 9,
-      "technical": 4.9,
-      "humanity": 4.4,
-      "law": 5.0,
-      "business-man": 5.0
+      "general": 17,
+      "medical": 17,
+      "technical": 18,
+      "humanity": 11,
+      "law": 14,
+      "business-man": 15
     },
     "campuses": [
       {
         "name": "Главный",
-        "address": "ул.Анкара 1/8",
+        "address": "",
         "latitude": 42.855701,
         "longitude": 74.681038
       }
@@ -95,8 +95,8 @@
     "students": 2500
   },
   {
-    "id": 1,
     "name": "Кыргызский технический университет имени И. Раззакова",
+    "id": 1,
     "abbreviation": "КТУ",
     "school-type": "Государственный",
     "icon-path": "kgtu-icon.png",
@@ -111,12 +111,12 @@
       "phone-number": "+996 (312) 567-175"
     },
     "rating": {
-      "general": 19,
-      "medical": 4.7,
-      "technical": 4.9,
-      "humanity": 4.4,
-      "law": 5.0,
-      "business-man": 5.0
+      "general": 13,
+      "medical": 11,
+      "technical": 18,
+      "humanity": 13,
+      "law": 11,
+      "business-man": 10
     },
     "campuses": [
       {
@@ -198,8 +198,8 @@
     "students": 2500
   },
   {
-    "id": 2,
     "name": "Киргизско-российский славянский университет имени Бориса Ельцина",
+    "id": 2,
     "abbreviation": "КРСУ",
     "school-type": "Государственный",
     "icon-path": "krsu-icon.png",
@@ -214,12 +214,12 @@
       "phone-number": "+996 (312) 662-567, +996 (312) 431-169"
     },
     "rating": {
-      "general": 18,
-      "medical": 4.7,
-      "technical": 4.9,
-      "humanity": 4.4,
-      "law": 5.0,
-      "business-man": 5.0
+      "general": 15,
+      "medical": 18,
+      "technical": 15,
+      "humanity": 12,
+      "law": 15,
+      "business-man": 13
     },
     "campuses": [
       {
@@ -292,8 +292,8 @@
     "students": 2500
   },
   {
-    "id": 3,
     "name": "Кыргызская государственная медицинская академия имени И. К. Ахунбаева",
+    "id": 3,
     "abbreviation": "КГМА",
     "school-type": "Государственный",
     "icon-path": "kgma-icon.png",
@@ -309,11 +309,11 @@
     },
     "rating": {
       "general": 16,
-      "medical": 20,
-      "technical": 4.9,
-      "humanity": 4.4,
-      "law": 5.0,
-      "business-man": 5.0
+      "medical": 19,
+      "technical": 9,
+      "humanity": 10,
+      "law": 5,
+      "business-man": 4
     },
     "campuses": [
       {
@@ -374,12 +374,12 @@
       }
     ],
     "institutions": [],
-    "teachers": 0,
-    "students": 0
+    "teachers": 250,
+    "students": 1500
   },
   {
-    "id": 4,
     "name": "Американский Университет в Центральной Азии",
+    "id": 4,
     "abbreviation": "АУЦА",
     "school-type": "Частный",
     "icon-path": "auca-icon.png",
@@ -394,12 +394,12 @@
       "phone-number": "+996 (312) 915-019, +996 (312) 915-011"
     },
     "rating": {
-      "general": 15,
-      "medical": 4.7,
-      "technical": 4.9,
-      "humanity": 4.4,
-      "law": 5.0,
-      "business-man": 5.0
+      "general": 19,
+      "medical": 15,
+      "technical": 16,
+      "humanity": 15,
+      "law": 16,
+      "business-man": 19
     },
     "campuses": [
       {
@@ -493,14 +493,14 @@
         "prestigious": 0.0
       }
     ],
-    "teachers": 0,
-    "students": 0
+    "teachers": 150,
+    "students": 2200
   },
   {
-    "id": 5,
     "name": "Кыргызско-Турецкий университет \"Манас\"",
-    "abbreviation": "Государственный",
-    "school-type": "КТМУ",
+    "id": 5,
+    "abbreviation": "КТМУ",
+    "school-type": "Государственный",
     "icon-path": "ktmu-icon.png",
     "address": "Проспект Мира, 56",
     "city": "Бишкек",
@@ -513,12 +513,12 @@
       "phone-number": "+996 (312) 541-942"
     },
     "rating": {
-      "general": 14,
-      "medical": 4.7,
-      "technical": 4.9,
-      "humanity": 4.4,
-      "law": 5.0,
-      "business-man": 5.0
+      "general": 18,
+      "medical": 14,
+      "technical": 14,
+      "humanity": 16,
+      "law": 13,
+      "business-man": 17
     },
     "campuses": [
       {
@@ -539,12 +539,12 @@
       }
     ],
     "institutions": [],
-    "teachers": 0,
-    "students": 0
+    "teachers": 250,
+    "students": 3800
   },
   {
-    "id": 6,
     "name": "Кыргызский национальный университет имени Жусупа Баласагына",
+    "id": 6,
     "abbreviation": "КНУ",
     "school-type": "Государственный",
     "icon-path": "knu-icon.png",
@@ -559,12 +559,12 @@
       "phone-number": "+996(312) 323-394"
     },
     "rating": {
-      "general": 13,
-      "medical": 4.7,
-      "technical": 4.9,
-      "humanity": 4.4,
-      "law": 5.0,
-      "business-man": 5.0
+      "general": 14,
+      "medical": 13,
+      "technical": 14,
+      "humanity": 17,
+      "law": 17,
+      "business-man": 15
     },
     "campuses": [
       {
@@ -737,12 +737,12 @@
       }
     ],
     "institutions": [],
-    "teachers": 0,
-    "students": 0
+    "teachers": 2100,
+    "students": 18300
   },
   {
-    "id": 7,
     "name": "Международный Университет Инновационных Технологий",
+    "id": 7,
     "abbreviation": "МУИТ",
     "school-type": "Частная",
     "icon-path": "muit-icon.png",
@@ -757,12 +757,12 @@
       "phone-number": "+996 (312) 449-903"
     },
     "rating": {
-      "general": 4.8,
-      "medical": 4.7,
-      "technical": 4.9,
-      "humanity": 4.4,
-      "low": 5.0,
-      "business-man": 5.0
+      "general": 2,
+      "medical": 4,
+      "technical": 13,
+      "humanity": 3,
+      "law": 2,
+      "business-man": 2
     },
     "campuses": [
       {
@@ -896,12 +896,12 @@
         "prestigious": 0.0
       }
     ],
-    "teachers": 0,
-    "students": 0
+    "teachers": 135,
+    "students": 1700
   },
   {
-    "id": 8,
     "name": "Международная Высшая Школа Медицины",
+    "id": 8,
     "abbreviation": "ВМШМ",
     "school-type": "Частная",
     "icon-path": "vmshm-icon.png",
@@ -916,12 +916,12 @@
       "phone-number": "+996 (312) 653-673"
     },
     "rating": {
-      "general": 4.8,
-      "medical": 4.7,
-      "technical": 4.9,
-      "humanity": 4.4,
-      "low": 5.0,
-      "business-man": 5.0
+      "general": 1,
+      "medical": 16,
+      "technical": 2,
+      "humanity": 4,
+      "law": 4,
+      "business-man": 3
     },
     "campuses": [
       {
@@ -951,12 +951,12 @@
         "prestigious": 0.0
       }
     ],
-    "teachers": 0,
-    "students": 0
+    "teachers": 1400,
+    "students": 120
   },
   {
-    "id": 9,
     "name": "Ошский Государственный Юридический Институт",
+    "id": 9,
     "abbreviation": "ОГЮИ",
     "school-type": "Государственный",
     "icon-path": "ogju-icon.png",
@@ -971,12 +971,12 @@
       "phone-number": "+996 (322) 284-024"
     },
     "rating": {
-      "general": 4.8,
-      "medical": 4.7,
-      "technical": 4.9,
-      "humanity": 4.4,
-      "low": 5.0,
-      "business-man": 5.0
+      "general": 6,
+      "medical": 2,
+      "technical": 2,
+      "humanity": 10,
+      "law": 15,
+      "business-man": 6
     },
     "campuses": [
       {
@@ -1046,12 +1046,12 @@
         "prestigious": 30.0
       }
     ],
-    "teachers": 0,
-    "students": 0
+    "teachers": 250,
+    "students": 1800
   },
   {
-    "id": 10,
     "name": "Ошский государственный университет",
+    "id": 10,
     "abbreviation": "ОшГУ",
     "school-type": "Государственный",
     "icon-path": "oshg-icon.png",
@@ -1066,12 +1066,12 @@
       "phone-number": "+996 (322) 222-273"
     },
     "rating": {
-      "general": 4.8,
-      "medical": 4.7,
-      "technical": 4.9,
-      "humanity": 4.4,
-      "low": 5.0,
-      "business-man": 5.0
+      "general": 12,
+      "medical": 16,
+      "technical": 14,
+      "humanity": 18,
+      "law": 12,
+      "business-man": 11
     },
     "campuses": [
       {
@@ -1213,12 +1213,12 @@
         "prestigious": 0.0
       }
     ],
-    "teachers": 0,
-    "students": 0
+    "teachers": 2600,
+    "students": 28000
   },
   {
-    "id": 11,
     "name": "Кыргызская Государственная Юридическая Академия",
+    "id": 11,
     "abbreviation": "КГЮА",
     "school-type": "Государственный",
     "icon-path": "kgja-icon.png",
@@ -1233,12 +1233,12 @@
       "phone-number": "+996 (312) 392-093"
     },
     "rating": {
-      "general": 4.8,
-      "medical": 4.7,
-      "technical": 4.9,
-      "humanity": 4.4,
-      "low": 5.0,
-      "business-man": 5.0
+      "general": 11,
+      "medical": 5,
+      "technical": 8,
+      "humanity": 9,
+      "law": 19,
+      "business-man": 8
     },
     "campuses": [
       {
@@ -1316,12 +1316,12 @@
         "prestigious": 0.0
       }
     ],
-    "teachers": 0,
-    "students": 0
+    "teachers": 200,
+    "students": 2400
   },
   {
-    "id": 12,
     "name": "Кыргызский экономический университет имени М. Рыскулбекова",
+    "id": 12,
     "abbreviation": "КЭУ",
     "school-type": "Государственный",
     "icon-path": "keu-icon.png",
@@ -1336,12 +1336,12 @@
       "phone-number": "+996 (312) 325-119"
     },
     "rating": {
-      "general": 4.8,
-      "medical": 4.7,
-      "technical": 4.9,
-      "humanity": 4.4,
-      "low": 5.0,
-      "business-man": 5.0
+      "general": 4,
+      "medical": 6,
+      "technical": 6,
+      "humanity": 8,
+      "law": 10,
+      "business-man": 14
     },
     "campuses": [
       {
@@ -1403,12 +1403,12 @@
         "prestigious": 0.0
       }
     ],
-    "teachers": 0,
-    "students": 0
+    "teachers": 200,
+    "students": 2500
   },
   {
-    "id": 13,
     "name": "Бишкекский гуманитарный университет имени К. Карасаева",
+    "id": 13,
     "abbreviation": "БГУ",
     "school-type": "Государственный",
     "icon-path": "bgu-icon.png",
@@ -1423,12 +1423,12 @@
       "phone-number": "+996 (312) 218-659"
     },
     "rating": {
-      "general": 4.8,
-      "medical": 4.7,
-      "technical": 4.9,
-      "humanity": 4.4,
-      "low": 5.0,
-      "business-man": 5.0
+      "general": 10,
+      "medical": 8,
+      "technical": 5,
+      "humanity": 19,
+      "law": 9,
+      "business-man": 13
     },
     "campuses": [
       {
@@ -1522,12 +1522,12 @@
         "prestigious": 0.0
       }
     ],
-    "teachers": 0,
-    "students": 0
+    "teachers": 500,
+    "students": 9000
   },
   {
-    "id": 14,
     "name": "Бишкекская финансово-экономическая академия",
+    "id": 14,
     "abbreviation": "БАФЭ",
     "school-type": "Частная",
     "icon-path": "bafe-icon.png",
@@ -1542,12 +1542,12 @@
       "phone-number": "+996 (312) 392-278"
     },
     "rating": {
-      "general": 4.8,
-      "medical": 4.7,
-      "technical": 4.9,
-      "humanity": 4.4,
-      "low": 5.0,
-      "business-man": 5.0
+      "general": 4,
+      "medical": 9,
+      "technical": 10,
+      "humanity": 7,
+      "law": 8,
+      "business-man": 17
     },
     "campuses": [
       {
@@ -1625,12 +1625,12 @@
         "prestigious": 0.0
       }
     ],
-    "teachers": 0,
-    "students": 0
+    "teachers": 80,
+    "students": 2000
   },
   {
-    "id": 15,
     "name": "Кыргызский государственный университет строительства, транспорта и архитектуры им. Н. Исанова",
+    "id": 15,
     "abbreviation": "КГУСТА",
     "school-type": "Государственный",
     "icon-path": "kgusta-icon.png",
@@ -1645,12 +1645,12 @@
       "phone-number": "+996 (312) 543-561"
     },
     "rating": {
-      "general": 4.8,
-      "medical": 4.7,
-      "technical": 4.9,
-      "humanity": 4.4,
-      "low": 5.0,
-      "business-man": 5.0
+      "general": 7,
+      "medical": 10,
+      "technical": 12,
+      "humanity": 6,
+      "law": 7,
+      "business-man": 12
     },
     "campuses": [
       {
@@ -1712,12 +1712,12 @@
         "prestigious": 0.0
       }
     ],
-    "teachers": 0,
-    "students": 0
+    "teachers": 450,
+    "students": 15000
   },
   {
-    "id": 16,
     "name": "Академия МВД КР имени генерал-майора милиции Э.Алиева",
+    "id": 16,
     "abbreviation": "АМВД",
     "school-type": "Государственный",
     "icon-path": "amvd-icon.png",
@@ -1732,12 +1732,12 @@
       "phone-number": "+996 (312) 630-889"
     },
     "rating": {
-      "general": 4.8,
-      "medical": 4.7,
-      "technical": 4.9,
-      "humanity": 4.4,
-      "low": 5.0,
-      "business-man": 5.0
+      "general": 3,
+      "medical": 12,
+      "technical": 11,
+      "humanity": 6,
+      "law": 7,
+      "business-man": 4
     },
     "campuses": [
       {
@@ -1767,12 +1767,12 @@
         "prestigious": 0.0
       }
     ],
-    "teachers": 0,
-    "students": 0
+    "teachers": 120,
+    "students": 3000
   },
   {
-    "id": 17,
     "name": "Академия государственного управления при Президенте КР",
+    "id": 17,
     "abbreviation": "АГУПКР",
     "school-type": "Государственный",
     "icon-path": "agupkr-icon.png",
@@ -1787,12 +1787,12 @@
       "phone-number": "+996 (312) 623-100"
     },
     "rating": {
-      "general": 4.8,
-      "medical": 4.7,
-      "technical": 4.9,
-      "humanity": 4.4,
-      "low": 5.0,
-      "business-man": 5.0
+      "general": 8,
+      "medical": 7,
+      "technical": 4,
+      "humanity": 5,
+      "law": 6,
+      "business-man": 9
     },
     "campuses": [
       {
@@ -1805,9 +1805,17 @@
     "most-popular-majors": [
       {
         "id": 0,
-        "name": "",
-        "lowest-fee": 0,
-        "highest-fee": 0,
+        "name": "Бакалавр (Не зависимо от факультета)",
+        "lowest-fee": 46000,
+        "highest-fee": 46000,
+        "currency": "сом",
+        "prestigious": 30.0
+      },
+      {
+        "id": 1,
+        "name": "Магистр (Не зависимо от факультета)",
+        "lowest-fee": 46000,
+        "highest-fee": 46000,
         "currency": "сом",
         "prestigious": 30.0
       }
@@ -1822,12 +1830,12 @@
         "prestigious": 0.0
       }
     ],
-    "teachers": 0,
-    "students": 0
+    "teachers": 236,
+    "students": 2100
   },
   {
-    "id": 18,
     "name": "Международный университет Кыргызстана",
+    "id": 18,
     "abbreviation": "МУК",
     "school-type": "Государственный",
     "icon-path": "muk-icon.png",
@@ -1842,12 +1850,12 @@
       "phone-number": "+996 (312) 642-337"
     },
     "rating": {
-      "general": 4.8,
-      "medical": 4.7,
-      "technical": 4.9,
-      "humanity": 4.4,
-      "low": 5.0,
-      "business-man": 5.0
+      "general": 6,
+      "medical": 3,
+      "technical": 4,
+      "humanity": 5,
+      "law": 3,
+      "business-man": 5
     },
     "campuses": [
       {
@@ -1973,7 +1981,7 @@
         "prestigious": 0.0
       }
     ],
-    "teachers": 0,
-    "students": 0
+    "teachers": 620,
+    "students": 5000
   }
 ]

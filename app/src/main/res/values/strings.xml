@@ -9,7 +9,7 @@
     <string name="tab_contacts">Contacts</string>
     <string name="info_title_description">Description:</string>
     <string name="info_title_entrance_info">Entrance information:</string>
-    <string name="info_title_tearcher">Teachers:</string>
+    <string name="info_title_teacher">Teachers:</string>
     <string name="info_title_students">Students:</string>
     <string name="info_title_majors">Majors:</string>
     <string name="info_major_list" translatable="false">• %s</string>
@@ -26,9 +26,9 @@
     <string name="ranking_law">Law</string>
     <string name="ranking_humanity">Humanity</string>
     <string name="rank_title">%s ranking</string>
-    <string name="order_number">%d.</string>
+    <string name="order_number" translatable="false">%d.</string>
     <string name="info_title_phone_number">Phone number:</string>
-    <string name="html">
-    </string>
     <string name="ranking_business">Business management</string>
+    <string name="about_link_on_facebook">Universities of KG on Facebook</string>
+    <string name="about_copyright">© 2019 Universities of KG  \n Copyright © All Rights Reserved</string>
 </resources>

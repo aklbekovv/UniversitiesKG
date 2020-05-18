@@ -9,9 +9,9 @@
     <string name="info_title_description">Общее:</string>
     <string name="info_title_email">Эл.почта:</string>
     <string name="info_title_entrance_info">Информация о поступлении:</string>
-    <string name="info_title_majors">Оделении:</string>
+    <string name="info_title_majors">Стоимость обучения:</string>
     <string name="info_title_students">Студенты:</string>
-    <string name="info_title_tearcher">Учителя:</string>
+    <string name="info_title_teacher">Учителя:</string>
     <string name="info_title_website">Вебсайт:</string>
     <string name="tab_contacts">Контакты</string>
     <string name="tab_info">Инфо</string>
@@ -19,10 +19,14 @@
     <string name="nav_about">О приложении</string>
     <string name="nav_ranking">Рейтинг</string>
     <string name="nav_universities">Университеты</string>
-    <string name="ranking_general">Общий</string>
-    <string name="ranking_humanity">Гуманитарный</string>
-    <string name="ranking_law">Юридический</string>
-    <string name="ranking_medical">Медицинский</string>
-    <string name="ranking_technical">Технический</string>
+    <string name="ranking_general">Общий Рейтинг</string>
+    <string name="ranking_humanity">Топ Гуманитарных университетов</string>
+    <string name="ranking_law">Топ Юридических университетов</string>
+    <string name="ranking_medical">Топ Медицинских университетов</string>
+    <string name="ranking_technical">Топ Технических университетов</string>
     <string name="rank_title">%s рейтинг</string>
+    <string name="about_copyright">© 2019 Университеты КР \n Авторские права © Все права защищены</string>
+    <string name="about_link_on_facebook">Университеты КР на Фейсбуке</string>
+    <string name="info_title_phone_number">Номер телефона:</string>
+    <string name="ranking_business">Топ университетов Бизнес - Менеджмент</string>
 </resources>

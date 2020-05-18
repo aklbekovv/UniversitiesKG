@@ -22,7 +22,7 @@
                 style="@style/TextTitles"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/info_title_tearcher" />
+                android:text="@string/info_title_teacher" />
 
             <TextView
                 android:id="@+id/tv_teachers"
